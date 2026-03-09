@@ -9,8 +9,8 @@
 <h2 align="center"><b>Everything your business needs to move digital assets.</b></h2>
 
 <p align="center">
-  <b>Custody. Staking. Payments. Tokenization.</b><br/>
-  One platform. Every chain. Enterprise-grade.
+  <b>Embedded Wallets &nbsp;&middot;&nbsp; MPC Security &nbsp;&middot;&nbsp; AI-Native API &nbsp;&middot;&nbsp; Staking &nbsp;&middot;&nbsp; Payments &nbsp;&middot;&nbsp; Tokenization</b><br/>
+  MCP-ready. Multi-chain. Production-grade.
 </p>
 
 ---
