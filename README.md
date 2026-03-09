@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/walletsuite/.github/main/profile/banner.svg" alt="Wallet Suite" width="100%" />
+  <img src="profile/banner.svg" alt="Wallet Suite" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/walletsuite/.github/main/profile/logo.png" alt="Wallet Suite Logo" width="48" height="38" />
+  <img src="profile/logo.png" alt="Wallet Suite Logo" width="48" height="38" />
 </p>
 
 <h3 align="center">Wallet infrastructure for the multi-chain era.</h3>
