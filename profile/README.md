@@ -4,17 +4,16 @@
 
 <br/>
 
+<h2 align="center">Everything your business needs to move digital assets.</h3>
+
+<br>
+
 <p align="center">
-  <img src="logo.png" alt="Wallet Suite Logo" width="48" height="38" />
+  <b>Embedded Wallets</b> &nbsp;&middot;&nbsp; <b>MPC Security</b> &nbsp;&middot;&nbsp; <b>AI-Native API</b> &nbsp;&middot;&nbsp; <b>Staking</b> &nbsp;&middot;&nbsp; <b>Payments</b> &nbsp;&middot;&nbsp; <b>Tokenization</b>
 </p>
 
-<h1 align="center"><b>Everything your business needs to move digital assets.</b></h1>
-
-<br/>
-
 <p align="center">
-  <b>Embedded Wallets &nbsp;&middot;&nbsp; MPC Security &nbsp;&middot;&nbsp; AI-Native API &nbsp;&middot;&nbsp; Staking &nbsp;&middot;&nbsp; Payments &nbsp;&middot;&nbsp; Tokenization</b><br/><br/>
-  MCP-ready. Multi-chain. Production-grade.
+  MCP-ready &nbsp;&middot;&nbsp; Multi-chain &nbsp;&middot;&nbsp; Production-grade
 </p>
 
 ---
