@@ -2,22 +2,15 @@
   <img src="logo-animated.svg" alt="Wallet Suite" width="30%" />
 </p>
 
-<br/>
-
-<h2 align="center">Everything your business needs to move digital assets.</h3>
-
-<br>
+<h2 align="center">Everything your business needs to move digital assets.</h2>
 
 <p align="center">
-  <b>Embedded Wallets</b> &nbsp;&middot;&nbsp; <b>MPC Security</b> &nbsp;&middot;&nbsp; <b>AI-Native API</b> &nbsp;&middot;&nbsp; <b>Staking</b> &nbsp;&middot;&nbsp; <b>Payments</b> &nbsp;&middot;&nbsp; <b>Tokenization</b>
+  Wallet infrastructure for AI agents, developers, and platforms.<br/>
+  <b>80+ blockchains</b> &nbsp;&middot;&nbsp; <b>Non-custodial</b> &nbsp;&middot;&nbsp; <b>Policy-gated for agents</b>
 </p>
 
 <p align="center">
-  MCP-ready &nbsp;&middot;&nbsp; Multi-chain &nbsp;&middot;&nbsp; Production-grade
-</p>
-
----
-
-<p align="center">
-  <a href="https://walletsuite.io">walletsuite.io</a>
+  <a href="https://walletsuite.io"><img alt="Website" src="https://img.shields.io/badge/walletsuite.io-1A7BC0?style=for-the-badge&logoColor=white"></a>
+  <a href="https://docs.walletsuite.io"><img alt="Docs" src="https://img.shields.io/badge/docs-269B98?style=for-the-badge&logoColor=white"></a>
+  <a href="https://calendly.com/walletsuite/onchain-session"><img alt="Book a demo" src="https://img.shields.io/badge/book%20a%20demo-5EBE92?style=for-the-badge&logoColor=white"></a>
 </p>
