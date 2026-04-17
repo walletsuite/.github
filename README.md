@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="profile/logo-animated.svg" alt="Wallet Suite" width="100%" />
+  <img src="profile/logo-animated.svg" alt="Wallet Suite" width="50%" />
 </p>
 
 <br/>
