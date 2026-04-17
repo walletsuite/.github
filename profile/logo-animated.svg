@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="660" viewBox="0 0 600 660" fill="none" role="img" aria-label="WalletSuite animated logo">
+  <title>WalletSuite</title>
+  <style>
+    /* Layered-assembly loop — each layer slides into place with a stagger,
+       holds assembled, then dissolves back to reset. Total cycle: 6s. */
+    .layer { opacity: 0; transform-box: fill-box; transform-origin: center; will-change: transform, opacity; }
+
+    @keyframes l1 {
+      0%,   1.67% { transform: translate(180px, -30px); opacity: 0; animation-timing-function: cubic-bezier(.2,.7,.3,1); }
+      11.67%      { transform: translate(0, 0);         opacity: 1; animation-timing-function: linear; }
+      83.33%      { transform: translate(0, 0);         opacity: 1; animation-timing-function: cubic-bezier(.6,0,.8,.3); }
+      96.67%      { transform: translate(90px, -15px);  opacity: 0; }
+      100%        { transform: translate(180px, -30px); opacity: 0; }
+    }
+    @keyframes l2 {
+      0%,   4.17% { transform: translate(-200px, 10px); opacity: 0; animation-timing-function: cubic-bezier(.2,.7,.3,1); }
+      14.17%      { transform: translate(0, 0);         opacity: 1; animation-timing-function: linear; }
+      83.33%      { transform: translate(0, 0);         opacity: 1; animation-timing-function: cubic-bezier(.6,0,.8,.3); }
+      96.67%      { transform: translate(-100px, 5px);  opacity: 0; }
+      100%        { transform: translate(-200px, 10px); opacity: 0; }
+    }
+    @keyframes l3 {
+      0%,   6.67% { transform: translate(-40px, -160px); opacity: 0; animation-timing-function: cubic-bezier(.2,.7,.3,1); }
+      16.67%      { transform: translate(0, 0);          opacity: 1; animation-timing-function: linear; }
+      83.33%      { transform: translate(0, 0);          opacity: 1; animation-timing-function: cubic-bezier(.6,0,.8,.3); }
+      96.67%      { transform: translate(-20px, -80px);  opacity: 0; }
+      100%        { transform: translate(-40px, -160px); opacity: 0; }
+    }
+    @keyframes l4 {
+      0%,   9.17% { transform: translate(-160px, 120px); opacity: 0; animation-timing-function: cubic-bezier(.2,.7,.3,1); }
+      19.17%      { transform: translate(0, 0);          opacity: 1; animation-timing-function: linear; }
+      83.33%      { transform: translate(0, 0);          opacity: 1; animation-timing-function: cubic-bezier(.6,0,.8,.3); }
+      96.67%      { transform: translate(-80px, 60px);   opacity: 0; }
+      100%        { transform: translate(-160px, 120px); opacity: 0; }
+    }
+    @keyframes l5 {
+      0%,  11.67% { transform: translate(-140px, -100px) scale(.96); opacity: 0; animation-timing-function: cubic-bezier(.2,.7,.3,1); }
+      21.67%      { transform: translate(0, 0) scale(1);             opacity: 1; animation-timing-function: linear; }
+      83.33%      { transform: translate(0, 0) scale(1);             opacity: 1; animation-timing-function: cubic-bezier(.6,0,.8,.3); }
+      96.67%      { transform: translate(-70px, -50px) scale(.98);   opacity: 0; }
+      100%        { transform: translate(-140px, -100px) scale(.96); opacity: 0; }
+    }
+    @keyframes l6 {
+      0%,  14.17% { transform: translate(200px, 40px) scale(.97); opacity: 0; animation-timing-function: cubic-bezier(.15,.8,.25,1.05); }
+      24.17%      { transform: translate(0, 0) scale(1);           opacity: 1; animation-timing-function: linear; }
+      83.33%      { transform: translate(0, 0) scale(1);           opacity: 1; animation-timing-function: cubic-bezier(.6,0,.8,.3); }
+      96.67%      { transform: translate(100px, 20px) scale(.98);  opacity: 0; }
+      100%        { transform: translate(200px, 40px) scale(.97);  opacity: 0; }
+    }
+
+    .l1 { animation: l1 6s infinite both; }
+    .l2 { animation: l2 6s infinite both; }
+    .l3 { animation: l3 6s infinite both; }
+    .l4 { animation: l4 6s infinite both; }
+    .l5 { animation: l5 6s infinite both; }
+    .l6 { animation: l6 6s infinite both; }
+
+    /* Shimmer sweep across the logo after it has assembled. */
+    .shimmer {
+      mix-blend-mode: screen;
+      opacity: 0;
+      animation: shimmer-move 6s infinite ease-in-out;
+    }
+    @keyframes shimmer-move {
+      0%, 40%  { transform: translateX(-800px); opacity: 0; }
+      50%      { opacity: .55; }
+      65%      { transform: translateX(800px); opacity: 0; }
+      100%     { transform: translateX(800px); opacity: 0; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .layer, .shimmer { animation: none !important; opacity: 1 !important; transform: none !important; }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="paint0_linear_1188_4681" x1="599.998" y1="350.741" x2="232.297" y2="493.675" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#269B98"/>
+      <stop offset="0.5" stop-color="#27958E"/>
+      <stop offset="0.75" stop-color="#207574"/>
+      <stop offset="1" stop-color="#0B1F3C"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_1188_4681" x1="375.588" y1="7.88331" x2="73.1417" y2="411.909" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C6CAC"/>
+      <stop offset="1" stop-color="#1A7BC0"/>
+    </linearGradient>
+    <linearGradient id="paint2_linear_1188_4681" x1="375.588" y1="7.88331" x2="73.1417" y2="411.909" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1C6CAC"/>
+      <stop offset="1" stop-color="#1A7BC0"/>
+    </linearGradient>
+    <linearGradient id="paint3_linear_1188_4681" x1="424.191" y1="0" x2="17.4262" y2="411.867" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#21A1DC"/>
+      <stop offset="1" stop-color="#0F2350"/>
+    </linearGradient>
+    <linearGradient id="paint4_linear_1188_4681" x1="424.191" y1="0" x2="17.4262" y2="411.867" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#21A1DC"/>
+      <stop offset="1" stop-color="#0F2350"/>
+    </linearGradient>
+    <linearGradient id="paint5_linear_1188_4681" x1="144.557" y1="330.501" x2="67.3244" y2="507.81" gradientUnits="userSpaceOnUse">
+      <stop offset="0.0781556" stop-color="#29DADA"/>
+      <stop offset="1" stop-color="#133675"/>
+    </linearGradient>
+    <linearGradient id="paint6_linear_1188_4681" x1="518.887" y1="147.325" x2="121.449" y2="514.451" gradientUnits="userSpaceOnUse">
+      <stop offset="0.0001" stop-color="#3CBEC2"/>
+      <stop offset="0.362779" stop-color="#5EBE92"/>
+      <stop offset="0.654674" stop-color="#1B677D"/>
+      <stop offset="1" stop-color="#0C0F3E"/>
+    </linearGradient>
+    <linearGradient id="paint7_linear_1188_4681" x1="489.431" y1="317.145" x2="146.972" y2="606.91" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C5E26D"/>
+      <stop offset="0.5" stop-color="#6FC47E"/>
+      <stop offset="0.75" stop-color="#238587"/>
+      <stop offset="1" stop-color="#164074"/>
+    </linearGradient>
+
+    <filter id="filter0_d_1188_4681" x="31.6236" y="114.04" width="564.042" height="470.824" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="4.73984"/>
+      <feGaussianBlur stdDeviation="3.15989"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1188_4681"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1188_4681" result="shape"/>
+    </filter>
+
+    <!-- Shimmer: narrow, tilted light-band that sweeps across the logo -->
+    <linearGradient id="shimmer-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"    stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.45" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5"  stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="0.55" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="1"    stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Clip the shimmer to the overall logo silhouette so it only lights the artwork -->
+    <clipPath id="logo-clip">
+      <path d="M498.518 445.839C512.848 435.723 505.891 317.863 504.048 254.665L587.785 185.147C589.365 185.674 597.265 189.73 597.265 202.527C597.265 216.746 605.164 479.807 594.105 497.187C583.045 514.566 317.614 656.761 309.714 659.131C301.815 661.501 252.573 632.536 232.297 618.053C316.561 566.704 471.659 464.798 498.518 445.839Z"/>
+      <path d="M416.674 53.9413C422.661 61.1024 440.83 89.5414 447.94 100.601C440.04 99.5477 419.751 98.9211 403.951 101.449C384.202 104.609 147.748 225.417 138.27 230.157C131.394 233.596 113.533 235.629 115.361 245.956C115.624 277.029 115.45 347.605 114.818 349.501C114.186 351.397 40.5628 391.896 4.22372 411.909C3.43375 342.391 -6.15247 182.849 6.48623 174.95C19.1249 167.05 314.774 3.27852 333.799 7.99189C352.825 12.7053 408.937 47.1254 416.674 53.9413Z"/>
+      <path d="M416.674 46.058C422.758 53.1595 441.617 90.3478 442.407 91.9278C434.507 90.8745 419.751 91.0378 403.951 93.5657C384.202 96.7256 148.788 224.701 139.31 229.441C132.434 232.88 122.467 240.443 115.609 246.031C115.872 277.103 115.201 347.563 114.569 349.459C113.937 351.355 40.5628 384.013 4.22372 404.025C3.43375 334.508 -6.15247 174.966 6.48622 167.066C19.1249 159.167 314.774 -4.60478 333.799 0.108592C352.825 4.82196 408.937 39.2421 416.674 46.058Z"/>
+      <path d="M20.1641 435.567C30.6412 416.608 140.278 367.366 200.639 336.821C177.726 364.207 128.074 418.188 126.596 421.348C125.118 424.508 129.438 433.724 131.901 435.567L41.8539 518.515C31.9153 515.34 20.1619 499.382 14.3809 481.386C8.93262 464.426 9.68694 454.527 20.1641 435.567Z"/>
+      <path d="M37.9434 516.927L474.009 115.62L589.345 185.138L143.8 573.805L37.9434 516.927Z"/>
+      <path d="M488.24 440.303C493.928 435.247 491.4 354.986 490.61 314.697L146.182 575.389L218.069 616.467C304.44 562.749 482.552 445.359 488.24 440.303Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Layer 1: dark teal right-back panel -->
+  <g class="layer l1">
+    <path d="M498.518 445.839C512.848 435.723 505.891 317.863 504.048 254.665L587.785 185.147C589.365 185.674 597.265 189.73 597.265 202.527C597.265 216.746 605.164 479.807 594.105 497.187C583.045 514.566 317.614 656.761 309.714 659.131C301.815 661.501 252.573 632.536 232.297 618.053C316.561 566.704 471.659 464.798 498.518 445.839Z" fill="url(#paint0_linear_1188_4681)"/>
+  </g>
+
+  <!-- Layer 2: blue back (doubled for tonal depth, matching original) -->
+  <g class="layer l2">
+    <path d="M416.674 53.9413C422.661 61.1024 440.83 89.5414 447.94 100.601C440.04 99.5477 419.751 98.9211 403.951 101.449C384.202 104.609 147.748 225.417 138.27 230.157C131.394 233.596 113.533 235.629 115.361 245.956C115.624 277.029 115.45 347.605 114.818 349.501C114.186 351.397 40.5628 391.896 4.22372 411.909C3.43375 342.391 -6.15247 182.849 6.48623 174.95C19.1249 167.05 314.774 3.27852 333.799 7.99189C352.825 12.7053 408.937 47.1254 416.674 53.9413Z" fill="url(#paint1_linear_1188_4681)"/>
+    <path d="M416.674 53.9413C419.83 56.4742 440.847 89.5302 447.94 100.601C440.042 99.5352 419.755 98.9461 403.951 101.449C384.197 104.578 147.755 225.432 138.27 230.157C131.388 233.585 113.533 235.629 115.361 245.956C115.575 277.029 115.453 347.606 114.818 349.501C114.183 351.396 40.5925 391.953 4.22187 411.909C3.54169 342.39 -6.16493 182.829 6.48623 174.95C19.1374 167.07 312.086 3.06982 333.799 7.99189C355.513 12.914 414.515 51.3585 416.674 53.9413Z" fill="url(#paint2_linear_1188_4681)"/>
+  </g>
+
+  <!-- Layer 3: cyan-to-navy overlay (doubled) -->
+  <g class="layer l3">
+    <path d="M416.674 46.058C422.758 53.1595 441.617 90.3478 442.407 91.9278C434.507 90.8745 419.751 91.0378 403.951 93.5657C384.202 96.7256 148.788 224.701 139.31 229.441C132.434 232.88 122.467 240.443 115.609 246.031C115.872 277.103 115.201 347.563 114.569 349.459C113.937 351.355 40.5628 384.013 4.22372 404.025C3.43375 334.508 -6.15247 174.966 6.48622 167.066C19.1249 159.167 314.774 -4.60478 333.799 0.108592C352.825 4.82196 408.937 39.2421 416.674 46.058Z" fill="url(#paint3_linear_1188_4681)"/>
+    <path d="M416.674 46.058C419.498 48.4792 435.315 80.8569 442.407 91.9278C434.509 90.862 419.755 91.0628 403.951 93.5657C384.197 96.6944 151.163 223.926 141.677 228.651C134.795 232.079 117.407 244.285 115.609 246.031C115.823 277.103 115.204 347.564 114.569 349.459C113.934 351.354 40.5929 391.912 4.2223 411.867C3.54211 342.348 -6.16493 174.946 6.48622 167.066C19.1374 159.187 312.086 -4.81348 333.799 0.108592C355.513 5.03067 414.484 43.5014 416.674 46.058Z" fill="url(#paint4_linear_1188_4681)"/>
+  </g>
+
+  <!-- Layer 4: cyan bracket piece (bottom-left) -->
+  <g class="layer l4">
+    <path d="M20.1641 435.567C30.6412 416.608 140.278 367.366 200.639 336.821C177.726 364.207 128.074 418.188 126.596 421.348C125.118 424.508 129.438 433.724 131.901 435.567L41.8539 518.515C31.9153 515.34 20.1619 499.382 14.3809 481.386C8.93262 464.426 9.68694 454.527 20.1641 435.567Z" fill="url(#paint5_linear_1188_4681)"/>
+  </g>
+
+  <!-- Layer 5: main diagonal strip with drop shadow -->
+  <g class="layer l5" filter="url(#filter0_d_1188_4681)">
+    <path d="M37.9434 516.927L474.009 115.62L589.345 185.138L143.8 573.805L37.9434 516.927Z" fill="url(#paint6_linear_1188_4681)"/>
+  </g>
+
+  <!-- Layer 6: green foreground (topmost) -->
+  <g class="layer l6">
+    <path d="M488.24 440.303C493.928 435.247 491.4 354.986 490.61 314.697L146.182 575.389L218.069 616.467C304.44 562.749 482.552 445.359 488.24 440.303Z" fill="url(#paint7_linear_1188_4681)"/>
+  </g>
+
+  <!-- Shimmer sweep, clipped to the logo silhouette -->
+  <g clip-path="url(#logo-clip)">
+    <g class="shimmer">
+      <rect x="-120" y="-80" width="220" height="900" transform="rotate(-28 0 330)" fill="url(#shimmer-grad)"/>
+    </g>
+  </g>
+</svg>
