@@ -51,11 +51,11 @@
       animation-delay: 1.8s;
     }
     @keyframes shimmer-move {
-      0%    { transform: translateX(-800px); opacity: 0; }
+      0%    { transform: translateX(-1000px); opacity: 0; }
       8%    { opacity: 0; }
-      50%   { opacity: .45; }
-      85%   { opacity: 0; transform: translateX(800px); }
-      100%  { transform: translateX(800px); opacity: 0; }
+      50%   { opacity: .55; }
+      85%   { opacity: 0; transform: translateX(1000px); }
+      100%  { transform: translateX(1000px); opacity: 0; }
     }
 
     @media (prefers-reduced-motion: reduce) {
@@ -114,14 +114,17 @@
       <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1188_4681" result="shape"/>
     </filter>
 
-    <!-- Shimmer: narrow, tilted light-band that sweeps across the logo -->
+    <!-- Shimmer: thick, softly-blurred tilted band that sweeps across the logo like a diffuse wash -->
     <linearGradient id="shimmer-grad" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0"    stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="0.45" stop-color="#ffffff" stop-opacity="0"/>
-      <stop offset="0.5"  stop-color="#ffffff" stop-opacity="0.9"/>
-      <stop offset="0.55" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5"  stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="0.75" stop-color="#ffffff" stop-opacity="0"/>
       <stop offset="1"    stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
+    <filter id="shimmer-blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="28"/>
+    </filter>
 
     <!-- Clip the shimmer to the overall logo silhouette so it only lights the artwork -->
     <clipPath id="logo-clip">
@@ -169,7 +172,7 @@
   <!-- Shimmer sweep, clipped to the logo silhouette -->
   <g clip-path="url(#logo-clip)">
     <g class="shimmer">
-      <rect x="-120" y="-80" width="220" height="900" transform="rotate(-28 0 330)" fill="url(#shimmer-grad)"/>
+      <rect x="-220" y="-120" width="440" height="940" transform="rotate(-28 0 330)" fill="url(#shimmer-grad)" filter="url(#shimmer-blur)"/>
     </g>
   </g>
 </svg>
